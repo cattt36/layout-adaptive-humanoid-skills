@@ -1,0 +1,99 @@
+{
+  "schema_version": "canonical_subskills_v1",
+  "status": "frozen_for_offline_evaluation",
+  "evaluation_only": true,
+  "label_scope": "within_action",
+  "unmapped_phase_policy": "error",
+  "scope": [
+    "CrouchedTraverse",
+    "ThreeStepPoleRun",
+    "FiveStepPoleRun"
+  ],
+  "purpose": "Action-specific, subject-invariant ground-truth labels for offline segment retrieval.",
+  "rules": [
+    "A canonical subskill describes motion function, not motion quality or executability.",
+    "ThreeStepPoleRun and FiveStepPoleRun remain separate action namespaces even when their phase structures are similar.",
+    "The mapping is derived from action identity and gait phase only and is never used as a latent-model input.",
+    "An unmapped action or gait phase is an error and must be reviewed before evaluation."
+  ],
+  "actions": {
+    "CrouchedTraverse": {
+      "display_name_zh": "独木桥下低姿态通过",
+      "namespace": "DMQX",
+      "phase_map": {
+        "left_single_support": {
+          "id": "DMQX_LEFT_SUPPORT",
+          "name_zh": "左脚支撑低姿态通过",
+          "name_en": "left-support crouched clearance"
+        },
+        "right_single_support": {
+          "id": "DMQX_RIGHT_SUPPORT",
+          "name_zh": "右脚支撑低姿态通过",
+          "name_en": "right-support crouched clearance"
+        },
+        "double_support_left_to_right": {
+          "id": "DMQX_TRANSFER_L2R",
+          "name_zh": "左支撑向右支撑转换",
+          "name_en": "left-to-right support transfer"
+        },
+        "double_support_right_to_left": {
+          "id": "DMQX_TRANSFER_R2L",
+          "name_zh": "右支撑向左支撑转换",
+          "name_en": "right-to-left support transfer"
+        }
+      }
+    },
+    "ThreeStepPoleRun": {
+      "display_name_zh": "三桩连续跨越（三步桩）",
+      "namespace": "WBZ1",
+      "phase_map": {
+        "prepared": {
+          "id": "WBZ1_PREPARE",
+          "name_zh": "三桩连续跨越准备与助跑",
+          "name_en": "three-pole-run preparation and run-up"
+        },
+        "left_foot_take_off": {
+          "id": "WBZ1_LEFT_TAKEOFF",
+          "name_zh": "三桩连续跨越左脚蹬伸",
+          "name_en": "three-pole-run left-foot take-off"
+        },
+        "right_foot_take_off": {
+          "id": "WBZ1_RIGHT_TAKEOFF",
+          "name_zh": "三桩连续跨越右脚蹬伸",
+          "name_en": "three-pole-run right-foot take-off"
+        },
+        "flight": {
+          "id": "WBZ1_FLIGHT",
+          "name_zh": "三桩连续跨越腾空越桩",
+          "name_en": "three-pole-run obstacle-clearance flight"
+        }
+      }
+    },
+    "FiveStepPoleRun": {
+      "display_name_zh": "五桩连续跨越（五步桩）",
+      "namespace": "WBZ2",
+      "phase_map": {
+        "prepared": {
+          "id": "WBZ2_PREPARE",
+          "name_zh": "五桩连续跨越准备与助跑",
+          "name_en": "five-pole-run preparation and run-up"
+        },
+        "left_foot_take_off": {
+          "id": "WBZ2_LEFT_TAKEOFF",
+          "name_zh": "五桩连续跨越左脚蹬伸",
+          "name_en": "five-pole-run left-foot take-off"
+        },
+        "right_foot_take_off": {
+          "id": "WBZ2_RIGHT_TAKEOFF",
+          "name_zh": "五桩连续跨越右脚蹬伸",
+          "name_en": "five-pole-run right-foot take-off"
+        },
+        "flight": {
+          "id": "WBZ2_FLIGHT",
+          "name_zh": "五桩连续跨越腾空越桩",
+          "name_en": "five-pole-run obstacle-clearance flight"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,524 @@
+{
+ "student": "/root/gpufree-data/hnu_v2/runs/students_rtJb_s5/Z3/student_2000.pt",
+ "latent_dir": "/root/gpufree-data/hnu_v2/data/std/z_tables_cv_f1/Z3",
+ "profile": "rtJb_Z3",
+ "it": 2000,
+ "obs_dim": 2225,
+ "act_dim": 29,
+ "obs_layout": [
+  {
+   "name": "base_ang_vel",
+   "dim": 3,
+   "history": 20,
+   "total": 60
+  },
+  {
+   "name": "projected_gravity",
+   "dim": 3,
+   "history": 20,
+   "total": 60
+  },
+  {
+   "name": "joint_pos",
+   "dim": 29,
+   "history": 20,
+   "total": 580
+  },
+  {
+   "name": "joint_vel",
+   "dim": 29,
+   "history": 20,
+   "total": 580
+  },
+  {
+   "name": "actions",
+   "dim": 29,
+   "history": 20,
+   "total": 580
+  },
+  {
+   "name": "base_lin_vel",
+   "dim": 3,
+   "history": 20,
+   "total": 60
+  },
+  {
+   "name": "z_0",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "z_5",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "z_10",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "z_15",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "z_20",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "z_25",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "z_30",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "z_40",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "z_50",
+   "dim": 32,
+   "history": 0,
+   "total": 32
+  },
+  {
+   "name": "obst_stakes",
+   "dim": 10,
+   "history": 0,
+   "total": 10
+  },
+  {
+   "name": "obst_bridge",
+   "dim": 7,
+   "history": 0,
+   "total": 7
+  }
+ ],
+ "z_offsets": [
+  0,
+  5,
+  10,
+  15,
+  20,
+  25,
+  30,
+  40,
+  50
+ ],
+ "hist": 20,
+ "lin_vel": true,
+ "joint_names": [
+  "left_hip_pitch_joint",
+  "left_hip_roll_joint",
+  "left_hip_yaw_joint",
+  "left_knee_joint",
+  "left_ankle_pitch_joint",
+  "left_ankle_roll_joint",
+  "right_hip_pitch_joint",
+  "right_hip_roll_joint",
+  "right_hip_yaw_joint",
+  "right_knee_joint",
+  "right_ankle_pitch_joint",
+  "right_ankle_roll_joint",
+  "waist_yaw_joint",
+  "waist_roll_joint",
+  "waist_pitch_joint",
+  "left_shoulder_pitch_joint",
+  "left_shoulder_roll_joint",
+  "left_shoulder_yaw_joint",
+  "left_elbow_joint",
+  "left_wrist_roll_joint",
+  "left_wrist_pitch_joint",
+  "left_wrist_yaw_joint",
+  "right_shoulder_pitch_joint",
+  "right_shoulder_roll_joint",
+  "right_shoulder_yaw_joint",
+  "right_elbow_joint",
+  "right_wrist_roll_joint",
+  "right_wrist_pitch_joint",
+  "right_wrist_yaw_joint"
+ ],
+ "body_names": [
+  "pelvis",
+  "left_hip_pitch_link",
+  "left_hip_roll_link",
+  "left_hip_yaw_link",
+  "left_knee_link",
+  "left_ankle_pitch_link",
+  "left_ankle_roll_link",
+  "right_hip_pitch_link",
+  "right_hip_roll_link",
+  "right_hip_yaw_link",
+  "right_knee_link",
+  "right_ankle_pitch_link",
+  "right_ankle_roll_link",
+  "waist_yaw_link",
+  "waist_roll_link",
+  "torso_link",
+  "left_shoulder_pitch_link",
+  "left_shoulder_roll_link",
+  "left_shoulder_yaw_link",
+  "left_elbow_link",
+  "left_wrist_roll_link",
+  "left_wrist_pitch_link",
+  "left_wrist_yaw_link",
+  "right_shoulder_pitch_link",
+  "right_shoulder_roll_link",
+  "right_shoulder_yaw_link",
+  "right_elbow_link",
+  "right_wrist_roll_link",
+  "right_wrist_pitch_link",
+  "right_wrist_yaw_link"
+ ],
+ "default_joint_pos": [
+  -0.31200000643730164,
+  0.0,
+  0.0,
+  0.6690000295639038,
+  -0.3630000054836273,
+  0.0,
+  -0.31200000643730164,
+  0.0,
+  0.0,
+  0.6690000295639038,
+  -0.3630000054836273,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.20000000298023224,
+  0.20000000298023224,
+  0.0,
+  0.6000000238418579,
+  0.0,
+  0.0,
+  0.0,
+  0.20000000298023224,
+  -0.20000000298023224,
+  0.0,
+  0.6000000238418579,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "action_scale": [
+  0.5475464463233948,
+  0.3506614565849304,
+  0.5475464463233948,
+  0.3506614565849304,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.5475464463233948,
+  0.3506614565849304,
+  0.5475464463233948,
+  0.3506614565849304,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.5475464463233948,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.07450087368488312,
+  0.07450087368488312,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.4385773241519928,
+  0.07450087368488312,
+  0.07450087368488312
+ ],
+ "action_offset": [
+  -0.31200000643730164,
+  0.0,
+  0.0,
+  0.6690000295639038,
+  -0.3630000054836273,
+  0.0,
+  -0.31200000643730164,
+  0.0,
+  0.0,
+  0.6690000295639038,
+  -0.3630000054836273,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.20000000298023224,
+  0.20000000298023224,
+  0.0,
+  0.6000000238418579,
+  0.0,
+  0.0,
+  0.0,
+  0.20000000298023224,
+  -0.20000000298023224,
+  0.0,
+  0.6000000238418579,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "kp": [
+  40.17923863450712,
+  99.09842777666111,
+  40.17923863450712,
+  99.09842777666111,
+  28.50124619574858,
+  28.50124619574858,
+  40.17923863450712,
+  99.09842777666111,
+  40.17923863450712,
+  99.09842777666111,
+  28.50124619574858,
+  28.50124619574858,
+  40.17923863450712,
+  28.50124619574858,
+  28.50124619574858,
+  14.25062309787429,
+  14.25062309787429,
+  14.25062309787429,
+  14.25062309787429,
+  14.25062309787429,
+  16.77832748089279,
+  16.77832748089279,
+  14.25062309787429,
+  14.25062309787429,
+  14.25062309787429,
+  14.25062309787429,
+  14.25062309787429,
+  16.77832748089279,
+  16.77832748089279
+ ],
+ "kd": [
+  2.557889775413375,
+  6.308801853496639,
+  2.557889775413375,
+  6.308801853496639,
+  1.814445686584846,
+  1.814445686584846,
+  2.557889775413375,
+  6.308801853496639,
+  2.557889775413375,
+  6.308801853496639,
+  1.814445686584846,
+  1.814445686584846,
+  2.557889775413375,
+  1.814445686584846,
+  1.814445686584846,
+  0.907222843292423,
+  0.907222843292423,
+  0.907222843292423,
+  0.907222843292423,
+  0.907222843292423,
+  1.06814150219,
+  1.06814150219,
+  0.907222843292423,
+  0.907222843292423,
+  0.907222843292423,
+  0.907222843292423,
+  0.907222843292423,
+  1.06814150219,
+  1.06814150219
+ ],
+ "effort_limit": [
+  88.0,
+  139.0,
+  88.0,
+  139.0,
+  50.0,
+  50.0,
+  88.0,
+  139.0,
+  88.0,
+  139.0,
+  50.0,
+  50.0,
+  88.0,
+  50.0,
+  50.0,
+  25.0,
+  25.0,
+  25.0,
+  25.0,
+  25.0,
+  5.0,
+  5.0,
+  25.0,
+  25.0,
+  25.0,
+  25.0,
+  25.0,
+  5.0,
+  5.0
+ ],
+ "sim": {
+  "timestep": 0.005,
+  "decimation": 4,
+  "integrator": "implicitfast",
+  "control_dt": 0.02
+ },
+ "sensors": {
+  "ang_vel": "robot/imu_ang_vel",
+  "lin_vel": "robot/imu_lin_vel"
+ },
+ "projected_gravity": "root (pelvis) quaternion: R^T [0, 0, -1]",
+ "noise_in_training": {},
+ "latency": {
+  "model": "0-20 ms (0 or 1 control step), one lag per episode segment of 0.5 s, shared by the sensor terms; last action and z_skill undelayed",
+  "sensor_terms": [
+   "base_ang_vel",
+   "projected_gravity",
+   "joint_pos",
+   "joint_vel",
+   "base_lin_vel",
+   "obst_stakes",
+   "obst_bridge"
+  ]
+ },
+ "tracking": {
+  "body_names": [
+   "pelvis",
+   "left_hip_roll_link",
+   "left_knee_link",
+   "left_ankle_roll_link",
+   "right_hip_roll_link",
+   "right_knee_link",
+   "right_ankle_roll_link",
+   "torso_link",
+   "left_shoulder_roll_link",
+   "left_elbow_link",
+   "left_wrist_yaw_link",
+   "right_shoulder_roll_link",
+   "right_elbow_link",
+   "right_wrist_yaw_link"
+  ],
+  "anchor": "torso_link",
+  "anchor_pos_z": 0.25,
+  "anchor_ori": 0.8,
+  "ee_bodies": [
+   "left_ankle_roll_link",
+   "right_ankle_roll_link",
+   "left_wrist_yaw_link",
+   "right_wrist_yaw_link"
+  ],
+  "ee_z": 0.25,
+  "reset_joint_noise": [
+   -0.05,
+   0.05
+  ]
+ },
+ "push": {
+  "interval_s": [
+   1.0,
+   3.0
+  ],
+  "velocity_range": {
+   "x": [
+    -0.5,
+    0.5
+   ],
+   "y": [
+    -0.5,
+    0.5
+   ],
+   "z": [
+    -0.2,
+    0.2
+   ],
+   "roll": [
+    -0.52,
+    0.52
+   ],
+   "pitch": [
+    -0.52,
+    0.52
+   ],
+   "yaw": [
+    -0.78,
+    0.78
+   ]
+  }
+ },
+ "stakes": {
+  "height": 0.1,
+  "radius": 0.2,
+  "tol": 0.17,
+  "n": 5,
+  "n_ahead": 2
+ },
+ "bridge": {
+  "parts": [
+   "plank",
+   "ramp",
+   "leg",
+   "post0",
+   "post1",
+   "post2",
+   "post3",
+   "base0",
+   "bracea0",
+   "braceb0",
+   "base1",
+   "bracea1",
+   "braceb1",
+   "base2",
+   "bracea2",
+   "braceb2",
+   "base3",
+   "bracea3",
+   "braceb3"
+  ],
+  "beam_half": 0.05786884110749452,
+  "post_base": {
+   "bar_len": 1.0,
+   "bar_w": 0.1,
+   "bar_h": 0.04,
+   "brace_d": 0.39,
+   "brace_h": 0.37,
+   "brace_t": 0.03,
+   "mid": {
+    "bar_len": 0.3,
+    "brace_d": 0.1,
+    "brace_h": 0.1
+   },
+   "end": {
+    "bar_len": 0.4,
+    "brace_d": 0.15,
+    "brace_h": 0.15
+   }
+  }
+ },
+ "motion_dirs": [
+  "/root/gpufree-data/hnu_v2/data/std/ref_bridge_video_lift/CrouchedTraverse",
+  "/root/gpufree-data/hnu_v2/data/std/ref_stakes_s83_h10/FiveStepPoleRun",
+  "/root/gpufree-data/hnu_v2/data/std/ref_stakes_s93_h10/ThreeStepPoleRun"
+ ],
+ "obstacle_input": "mocap",
+ "obstacle_positions": "measured live by the motion capture at the takeover (required; code/robot_side/refresh_obstacles.py)",
+ "lin_vel_input": "zero",
+ "standard_start": "every motion starts with frame 0 = a NORMAL stance (feet parallel, 0.24 m apart) at the layout origin facing +x; the reference then makes one step onto the skill's footprints, slows in and continues with the skill (tools/make_start.py)",
+ "start": {
+  "hold_s": "rope release time + 1-2 s",
+  "note": "standard start: hang on the rope in the normal stance (frame 0 of the motion) at the layout origin facing +x (+-5 cm, +-10 deg trained), set the feet down, switch the policy on with frame 0, release the rope over ~10 s (trained 1-12 s, up to 90 % body weight), keep frame 0 until 1-2 s after the rope is slack, then advance the frame every 20 ms: the robot steps into the skill by itself (about 1.8 s step-in + 2 s slow-in)"
+ }
+}

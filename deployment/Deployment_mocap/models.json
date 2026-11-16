@@ -1,0 +1,6 @@
+{
+ "note": "Deployment_mocap (new G1, waist free, standard start): rtJb c2000 (bridge, no body velocity) / rtJs c2000 (stakes, mocap body velocity)",
+ "CrouchedTraverse": "model_bridge",
+ "ThreeStepPoleRun": "model_stakes",
+ "FiveStepPoleRun": "model_stakes"
+}

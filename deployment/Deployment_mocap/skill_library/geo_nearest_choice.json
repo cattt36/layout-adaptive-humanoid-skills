@@ -1,0 +1,713 @@
+{
+ "CrouchedTraverse_001": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_018",
+  "geo_dist_m": 0.288,
+  "random": "CrouchedTraverse_029",
+  "random_dist_m": 3.837,
+  "median_lib_dist_m": 1.135
+ },
+ "CrouchedTraverse_002": {
+  "task": "CrouchedTraverse",
+  "split": "test",
+  "geo": "CrouchedTraverse_001",
+  "geo_dist_m": 0.515,
+  "random": "CrouchedTraverse_009",
+  "random_dist_m": 1.085,
+  "median_lib_dist_m": 0.875
+ },
+ "CrouchedTraverse_005": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_006",
+  "geo_dist_m": 0.332,
+  "random": "CrouchedTraverse_001",
+  "random_dist_m": 0.927,
+  "median_lib_dist_m": 1.022
+ },
+ "CrouchedTraverse_006": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_005",
+  "geo_dist_m": 0.332,
+  "random": "CrouchedTraverse_021",
+  "random_dist_m": 1.071,
+  "median_lib_dist_m": 1.011
+ },
+ "CrouchedTraverse_007": {
+  "task": "CrouchedTraverse",
+  "split": "val",
+  "geo": "CrouchedTraverse_005",
+  "geo_dist_m": 0.206,
+  "random": "CrouchedTraverse_013",
+  "random_dist_m": 3.701,
+  "median_lib_dist_m": 1.089
+ },
+ "CrouchedTraverse_008": {
+  "task": "CrouchedTraverse",
+  "split": "test",
+  "geo": "CrouchedTraverse_005",
+  "geo_dist_m": 0.359,
+  "random": "CrouchedTraverse_018",
+  "random_dist_m": 1.274,
+  "median_lib_dist_m": 1.33
+ },
+ "CrouchedTraverse_009": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_010",
+  "geo_dist_m": 0.183,
+  "random": "CrouchedTraverse_005",
+  "random_dist_m": 0.698,
+  "median_lib_dist_m": 1.532
+ },
+ "CrouchedTraverse_010": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_012",
+  "geo_dist_m": 0.145,
+  "random": "CrouchedTraverse_017",
+  "random_dist_m": 1.451,
+  "median_lib_dist_m": 1.506
+ },
+ "CrouchedTraverse_011": {
+  "task": "CrouchedTraverse",
+  "split": "test",
+  "geo": "CrouchedTraverse_012",
+  "geo_dist_m": 0.213,
+  "random": "CrouchedTraverse_021",
+  "random_dist_m": 1.637,
+  "median_lib_dist_m": 1.491
+ },
+ "CrouchedTraverse_012": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_010",
+  "geo_dist_m": 0.145,
+  "random": "CrouchedTraverse_017",
+  "random_dist_m": 1.536,
+  "median_lib_dist_m": 1.568
+ },
+ "CrouchedTraverse_013": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_009",
+  "geo_dist_m": 3.029,
+  "random": "CrouchedTraverse_029",
+  "random_dist_m": 6.811,
+  "median_lib_dist_m": 4.411
+ },
+ "CrouchedTraverse_014": {
+  "task": "CrouchedTraverse",
+  "split": "test",
+  "geo": "CrouchedTraverse_006",
+  "geo_dist_m": 0.355,
+  "random": "CrouchedTraverse_028",
+  "random_dist_m": 4.43,
+  "median_lib_dist_m": 0.834
+ },
+ "CrouchedTraverse_016": {
+  "task": "CrouchedTraverse",
+  "split": "test",
+  "geo": "CrouchedTraverse_017",
+  "geo_dist_m": 0.2,
+  "random": "CrouchedTraverse_023",
+  "random_dist_m": 0.375,
+  "median_lib_dist_m": 1.017
+ },
+ "CrouchedTraverse_017": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_019",
+  "geo_dist_m": 0.147,
+  "random": "CrouchedTraverse_031",
+  "random_dist_m": 1.056,
+  "median_lib_dist_m": 1.056
+ },
+ "CrouchedTraverse_018": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_023",
+  "geo_dist_m": 0.148,
+  "random": "CrouchedTraverse_026",
+  "random_dist_m": 1.359,
+  "median_lib_dist_m": 1.174
+ },
+ "CrouchedTraverse_019": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_023",
+  "geo_dist_m": 0.094,
+  "random": "CrouchedTraverse_009",
+  "random_dist_m": 1.6,
+  "median_lib_dist_m": 1.146
+ },
+ "CrouchedTraverse_020": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_018",
+  "geo_dist_m": 0.357,
+  "random": "CrouchedTraverse_029",
+  "random_dist_m": 4.213,
+  "median_lib_dist_m": 1.316
+ },
+ "CrouchedTraverse_021": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_019",
+  "geo_dist_m": 0.197,
+  "random": "CrouchedTraverse_023",
+  "random_dist_m": 0.202,
+  "median_lib_dist_m": 1.169
+ },
+ "CrouchedTraverse_022": {
+  "task": "CrouchedTraverse",
+  "split": "val",
+  "geo": "CrouchedTraverse_020",
+  "geo_dist_m": 0.073,
+  "random": "CrouchedTraverse_005",
+  "random_dist_m": 0.974,
+  "median_lib_dist_m": 1.149
+ },
+ "CrouchedTraverse_023": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_019",
+  "geo_dist_m": 0.094,
+  "random": "CrouchedTraverse_012",
+  "random_dist_m": 1.684,
+  "median_lib_dist_m": 1.195
+ },
+ "CrouchedTraverse_024": {
+  "task": "CrouchedTraverse",
+  "split": "test",
+  "geo": "CrouchedTraverse_029",
+  "geo_dist_m": 3.297,
+  "random": "CrouchedTraverse_006",
+  "random_dist_m": 7.417,
+  "median_lib_dist_m": 6.821
+ },
+ "CrouchedTraverse_026": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_032",
+  "geo_dist_m": 0.325,
+  "random": "CrouchedTraverse_032",
+  "random_dist_m": 0.325,
+  "median_lib_dist_m": 1.462
+ },
+ "CrouchedTraverse_028": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_029",
+  "geo_dist_m": 0.13,
+  "random": "CrouchedTraverse_023",
+  "random_dist_m": 3.996,
+  "median_lib_dist_m": 4.081
+ },
+ "CrouchedTraverse_029": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_028",
+  "geo_dist_m": 0.13,
+  "random": "CrouchedTraverse_031",
+  "random_dist_m": 3.958,
+  "median_lib_dist_m": 3.983
+ },
+ "CrouchedTraverse_030": {
+  "task": "CrouchedTraverse",
+  "split": "val",
+  "geo": "CrouchedTraverse_029",
+  "geo_dist_m": 1.314,
+  "random": "CrouchedTraverse_012",
+  "random_dist_m": 5.817,
+  "median_lib_dist_m": 5.123
+ },
+ "CrouchedTraverse_031": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_026",
+  "geo_dist_m": 0.829,
+  "random": "CrouchedTraverse_020",
+  "random_dist_m": 1.316,
+  "median_lib_dist_m": 1.146
+ },
+ "CrouchedTraverse_032": {
+  "task": "CrouchedTraverse",
+  "split": "train",
+  "geo": "CrouchedTraverse_026",
+  "geo_dist_m": 0.325,
+  "random": "CrouchedTraverse_020",
+  "random_dist_m": 1.565,
+  "median_lib_dist_m": 1.565
+ },
+ "ThreeStepPoleRun_001": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_003",
+  "geo_dist_m": 0.172,
+  "random": "ThreeStepPoleRun_021",
+  "random_dist_m": 1.318,
+  "median_lib_dist_m": 0.963
+ },
+ "ThreeStepPoleRun_002": {
+  "task": "ThreeStepPoleRun",
+  "split": "test",
+  "geo": "ThreeStepPoleRun_001",
+  "geo_dist_m": 0.203,
+  "random": "ThreeStepPoleRun_003",
+  "random_dist_m": 0.229,
+  "median_lib_dist_m": 1.11
+ },
+ "ThreeStepPoleRun_003": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_001",
+  "geo_dist_m": 0.172,
+  "random": "ThreeStepPoleRun_018",
+  "random_dist_m": 0.957,
+  "median_lib_dist_m": 1.069
+ },
+ "ThreeStepPoleRun_006": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_031",
+  "geo_dist_m": 0.403,
+  "random": "ThreeStepPoleRun_020",
+  "random_dist_m": 0.44,
+  "median_lib_dist_m": 0.608
+ },
+ "ThreeStepPoleRun_008": {
+  "task": "ThreeStepPoleRun",
+  "split": "val",
+  "geo": "ThreeStepPoleRun_015",
+  "geo_dist_m": 0.218,
+  "random": "ThreeStepPoleRun_026",
+  "random_dist_m": 1.677,
+  "median_lib_dist_m": 1.585
+ },
+ "ThreeStepPoleRun_011": {
+  "task": "ThreeStepPoleRun",
+  "split": "test",
+  "geo": "ThreeStepPoleRun_020",
+  "geo_dist_m": 0.146,
+  "random": "ThreeStepPoleRun_020",
+  "random_dist_m": 0.146,
+  "median_lib_dist_m": 0.501
+ },
+ "ThreeStepPoleRun_012": {
+  "task": "ThreeStepPoleRun",
+  "split": "test",
+  "geo": "ThreeStepPoleRun_017",
+  "geo_dist_m": 0.22,
+  "random": "ThreeStepPoleRun_017",
+  "random_dist_m": 0.22,
+  "median_lib_dist_m": 0.589
+ },
+ "ThreeStepPoleRun_013": {
+  "task": "ThreeStepPoleRun",
+  "split": "val",
+  "geo": "ThreeStepPoleRun_028",
+  "geo_dist_m": 0.219,
+  "random": "ThreeStepPoleRun_017",
+  "random_dist_m": 0.471,
+  "median_lib_dist_m": 0.457
+ },
+ "ThreeStepPoleRun_014": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_020",
+  "geo_dist_m": 0.161,
+  "random": "ThreeStepPoleRun_016",
+  "random_dist_m": 0.264,
+  "median_lib_dist_m": 0.578
+ },
+ "ThreeStepPoleRun_015": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_003",
+  "geo_dist_m": 0.509,
+  "random": "ThreeStepPoleRun_006",
+  "random_dist_m": 1.039,
+  "median_lib_dist_m": 1.432
+ },
+ "ThreeStepPoleRun_016": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_019",
+  "geo_dist_m": 0.144,
+  "random": "ThreeStepPoleRun_014",
+  "random_dist_m": 0.264,
+  "median_lib_dist_m": 0.369
+ },
+ "ThreeStepPoleRun_017": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_016",
+  "geo_dist_m": 0.323,
+  "random": "ThreeStepPoleRun_003",
+  "random_dist_m": 1.321,
+  "median_lib_dist_m": 0.585
+ },
+ "ThreeStepPoleRun_018": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_019",
+  "geo_dist_m": 0.133,
+  "random": "ThreeStepPoleRun_006",
+  "random_dist_m": 0.471,
+  "median_lib_dist_m": 0.431
+ },
+ "ThreeStepPoleRun_019": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_018",
+  "geo_dist_m": 0.133,
+  "random": "ThreeStepPoleRun_028",
+  "random_dist_m": 0.309,
+  "median_lib_dist_m": 0.37
+ },
+ "ThreeStepPoleRun_020": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_014",
+  "geo_dist_m": 0.161,
+  "random": "ThreeStepPoleRun_017",
+  "random_dist_m": 0.585,
+  "median_lib_dist_m": 0.556
+ },
+ "ThreeStepPoleRun_021": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_028",
+  "geo_dist_m": 0.187,
+  "random": "ThreeStepPoleRun_003",
+  "random_dist_m": 1.419,
+  "median_lib_dist_m": 0.574
+ },
+ "ThreeStepPoleRun_022": {
+  "task": "ThreeStepPoleRun",
+  "split": "?",
+  "geo": "ThreeStepPoleRun_031",
+  "geo_dist_m": 1.141,
+  "random": "ThreeStepPoleRun_017",
+  "random_dist_m": 1.53,
+  "median_lib_dist_m": 1.406
+ },
+ "ThreeStepPoleRun_025": {
+  "task": "ThreeStepPoleRun",
+  "split": "?",
+  "geo": "ThreeStepPoleRun_031",
+  "geo_dist_m": 0.948,
+  "random": "ThreeStepPoleRun_014",
+  "random_dist_m": 1.361,
+  "median_lib_dist_m": 1.233
+ },
+ "ThreeStepPoleRun_026": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_031",
+  "geo_dist_m": 0.12,
+  "random": "ThreeStepPoleRun_019",
+  "random_dist_m": 0.28,
+  "median_lib_dist_m": 0.468
+ },
+ "ThreeStepPoleRun_028": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_021",
+  "geo_dist_m": 0.187,
+  "random": "ThreeStepPoleRun_021",
+  "random_dist_m": 0.187,
+  "median_lib_dist_m": 0.485
+ },
+ "ThreeStepPoleRun_029": {
+  "task": "ThreeStepPoleRun",
+  "split": "?",
+  "geo": "ThreeStepPoleRun_026",
+  "geo_dist_m": 0.102,
+  "random": "ThreeStepPoleRun_001",
+  "random_dist_m": 0.971,
+  "median_lib_dist_m": 0.456
+ },
+ "ThreeStepPoleRun_030": {
+  "task": "ThreeStepPoleRun",
+  "split": "val",
+  "geo": "ThreeStepPoleRun_026",
+  "geo_dist_m": 0.156,
+  "random": "ThreeStepPoleRun_017",
+  "random_dist_m": 0.673,
+  "median_lib_dist_m": 0.554
+ },
+ "ThreeStepPoleRun_031": {
+  "task": "ThreeStepPoleRun",
+  "split": "train",
+  "geo": "ThreeStepPoleRun_026",
+  "geo_dist_m": 0.12,
+  "random": "ThreeStepPoleRun_016",
+  "random_dist_m": 0.513,
+  "median_lib_dist_m": 0.556
+ },
+ "ThreeStepPoleRun_032": {
+  "task": "ThreeStepPoleRun",
+  "split": "test",
+  "geo": "ThreeStepPoleRun_031",
+  "geo_dist_m": 0.15,
+  "random": "ThreeStepPoleRun_031",
+  "random_dist_m": 0.15,
+  "median_lib_dist_m": 0.549
+ },
+ "FiveStepPoleRun_001": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_004",
+  "geo_dist_m": 1.298,
+  "random": "FiveStepPoleRun_016",
+  "random_dist_m": 2.117,
+  "median_lib_dist_m": 5.597
+ },
+ "FiveStepPoleRun_002": {
+  "task": "FiveStepPoleRun",
+  "split": "test",
+  "geo": "FiveStepPoleRun_006",
+  "geo_dist_m": 3.569,
+  "random": "FiveStepPoleRun_006",
+  "random_dist_m": 3.569,
+  "median_lib_dist_m": 6.411
+ },
+ "FiveStepPoleRun_003": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_025",
+  "geo_dist_m": 0.468,
+  "random": "FiveStepPoleRun_007",
+  "random_dist_m": 1.316,
+  "median_lib_dist_m": 5.481
+ },
+ "FiveStepPoleRun_004": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_001",
+  "geo_dist_m": 1.298,
+  "random": "FiveStepPoleRun_018",
+  "random_dist_m": 3.945,
+  "median_lib_dist_m": 5.444
+ },
+ "FiveStepPoleRun_005": {
+  "task": "FiveStepPoleRun",
+  "split": "test",
+  "geo": "FiveStepPoleRun_006",
+  "geo_dist_m": 1.473,
+  "random": "FiveStepPoleRun_021",
+  "random_dist_m": 7.229,
+  "median_lib_dist_m": 5.347
+ },
+ "FiveStepPoleRun_006": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_007",
+  "geo_dist_m": 0.176,
+  "random": "FiveStepPoleRun_015",
+  "random_dist_m": 6.392,
+  "median_lib_dist_m": 4.71
+ },
+ "FiveStepPoleRun_007": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_006",
+  "geo_dist_m": 0.176,
+  "random": "FiveStepPoleRun_017",
+  "random_dist_m": 5.869,
+  "median_lib_dist_m": 4.572
+ },
+ "FiveStepPoleRun_010": {
+  "task": "FiveStepPoleRun",
+  "split": "val",
+  "geo": "FiveStepPoleRun_006",
+  "geo_dist_m": 0.238,
+  "random": "FiveStepPoleRun_023",
+  "random_dist_m": 1.951,
+  "median_lib_dist_m": 3.954
+ },
+ "FiveStepPoleRun_012": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_017",
+  "geo_dist_m": 0.626,
+  "random": "FiveStepPoleRun_015",
+  "random_dist_m": 1.767,
+  "median_lib_dist_m": 4.485
+ },
+ "FiveStepPoleRun_013": {
+  "task": "FiveStepPoleRun",
+  "split": "test",
+  "geo": "FiveStepPoleRun_001",
+  "geo_dist_m": 0.307,
+  "random": "FiveStepPoleRun_031",
+  "random_dist_m": 6.0,
+  "median_lib_dist_m": 5.179
+ },
+ "FiveStepPoleRun_014": {
+  "task": "FiveStepPoleRun",
+  "split": "val",
+  "geo": "FiveStepPoleRun_018",
+  "geo_dist_m": 0.618,
+  "random": "FiveStepPoleRun_006",
+  "random_dist_m": 5.352,
+  "median_lib_dist_m": 3.708
+ },
+ "FiveStepPoleRun_015": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_021",
+  "geo_dist_m": 0.1,
+  "random": "FiveStepPoleRun_030",
+  "random_dist_m": 4.564,
+  "median_lib_dist_m": 4.992
+ },
+ "FiveStepPoleRun_016": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_015",
+  "geo_dist_m": 0.443,
+  "random": "FiveStepPoleRun_028",
+  "random_dist_m": 7.338,
+  "median_lib_dist_m": 4.569
+ },
+ "FiveStepPoleRun_017": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_018",
+  "geo_dist_m": 0.131,
+  "random": "FiveStepPoleRun_031",
+  "random_dist_m": 4.36,
+  "median_lib_dist_m": 4.18
+ },
+ "FiveStepPoleRun_018": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_017",
+  "geo_dist_m": 0.131,
+  "random": "FiveStepPoleRun_026",
+  "random_dist_m": 6.885,
+  "median_lib_dist_m": 4.104
+ },
+ "FiveStepPoleRun_019": {
+  "task": "FiveStepPoleRun",
+  "split": "test",
+  "geo": "FiveStepPoleRun_020",
+  "geo_dist_m": 0.309,
+  "random": "FiveStepPoleRun_020",
+  "random_dist_m": 0.309,
+  "median_lib_dist_m": 3.8
+ },
+ "FiveStepPoleRun_020": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_012",
+  "geo_dist_m": 1.184,
+  "random": "FiveStepPoleRun_021",
+  "random_dist_m": 2.632,
+  "median_lib_dist_m": 4.402
+ },
+ "FiveStepPoleRun_021": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_015",
+  "geo_dist_m": 0.1,
+  "random": "FiveStepPoleRun_006",
+  "random_dist_m": 6.474,
+  "median_lib_dist_m": 5.082
+ },
+ "FiveStepPoleRun_022": {
+  "task": "FiveStepPoleRun",
+  "split": "val",
+  "geo": "FiveStepPoleRun_017",
+  "geo_dist_m": 0.277,
+  "random": "FiveStepPoleRun_015",
+  "random_dist_m": 1.162,
+  "median_lib_dist_m": 3.993
+ },
+ "FiveStepPoleRun_023": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_028",
+  "geo_dist_m": 0.149,
+  "random": "FiveStepPoleRun_017",
+  "random_dist_m": 7.19,
+  "median_lib_dist_m": 5.419
+ },
+ "FiveStepPoleRun_024": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_028",
+  "geo_dist_m": 1.777,
+  "random": "FiveStepPoleRun_031",
+  "random_dist_m": 2.246,
+  "median_lib_dist_m": 3.92
+ },
+ "FiveStepPoleRun_025": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_026",
+  "geo_dist_m": 0.084,
+  "random": "FiveStepPoleRun_026",
+  "random_dist_m": 0.084,
+  "median_lib_dist_m": 5.298
+ },
+ "FiveStepPoleRun_026": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_025",
+  "geo_dist_m": 0.084,
+  "random": "FiveStepPoleRun_020",
+  "random_dist_m": 6.303,
+  "median_lib_dist_m": 5.304
+ },
+ "FiveStepPoleRun_027": {
+  "task": "FiveStepPoleRun",
+  "split": "test",
+  "geo": "FiveStepPoleRun_030",
+  "geo_dist_m": 0.341,
+  "random": "FiveStepPoleRun_021",
+  "random_dist_m": 4.779,
+  "median_lib_dist_m": 4.26
+ },
+ "FiveStepPoleRun_028": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_023",
+  "geo_dist_m": 0.149,
+  "random": "FiveStepPoleRun_016",
+  "random_dist_m": 7.338,
+  "median_lib_dist_m": 5.323
+ },
+ "FiveStepPoleRun_029": {
+  "task": "FiveStepPoleRun",
+  "split": "test",
+  "geo": "FiveStepPoleRun_031",
+  "geo_dist_m": 0.616,
+  "random": "FiveStepPoleRun_016",
+  "random_dist_m": 4.899,
+  "median_lib_dist_m": 3.524
+ },
+ "FiveStepPoleRun_030": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_031",
+  "geo_dist_m": 0.863,
+  "random": "FiveStepPoleRun_028",
+  "random_dist_m": 4.304,
+  "median_lib_dist_m": 4.223
+ },
+ "FiveStepPoleRun_031": {
+  "task": "FiveStepPoleRun",
+  "split": "train",
+  "geo": "FiveStepPoleRun_030",
+  "geo_dist_m": 0.863,
+  "random": "FiveStepPoleRun_001",
+  "random_dist_m": 6.172,
+  "median_lib_dist_m": 4.136
+ }
+}

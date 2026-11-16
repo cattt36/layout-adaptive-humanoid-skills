@@ -1,0 +1,614 @@
+{
+  "format": "router_ood_benchmark_v1",
+  "purpose": "Development-only language OOD and abstention audit for Results Section 8.4",
+  "frozen_before_first_scoring": true,
+  "case_count": 72,
+  "construction": {
+    "resolvable_conditions": [
+      "held_out_paraphrase",
+      "bilingual_code_switch",
+      "synthetic_asr_noise",
+      "implicit_description"
+    ],
+    "rejection_conditions": [
+      "ambiguous",
+      "out_of_scope"
+    ],
+    "balance": "Each resolvable condition contains four commands per action; each rejection condition contains twelve commands.",
+    "limitations": [
+      "Commands are hand-authored development cases, not independently collected user utterances.",
+      "ASR cases are text-level synthetic corruptions, not transcripts from an acoustic ASR system.",
+      "The benchmark must not be used to retrain the router or select thresholds if its scores are reported as held-out results."
+    ]
+  },
+  "cases": [
+    {
+      "id": "para_dmqx_01",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Move forward in a deep crouch so the overhead beam clears your head.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "para_dmqx_02",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Travel beneath the low crossbar without making contact.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "para_dmqx_03",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Lower your torso and continue through the space below the structure.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "para_dmqx_04",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Proceed underneath the low span while staying compact.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "para_wbz1_01",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Take the compact rail course with three consecutive clearances.",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "para_wbz1_02",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Clear a trio of low bars without breaking stride.",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "para_wbz1_03",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Run the shorter obstacle sequence from start to finish.",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "para_wbz1_04",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Maintain rhythm across the first three ground-level barriers.",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "para_wbz2_01",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Complete the extended rail course with five consecutive clearances.",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "para_wbz2_02",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Clear a quintet of low bars without slowing down.",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "para_wbz2_03",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Run the longer obstacle sequence from start to finish.",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "para_wbz2_04",
+      "condition": "held_out_paraphrase",
+      "language": "en",
+      "query": "Maintain rhythm across all five ground-level barriers.",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_dmqx_01",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "请 lower your torso，然后从低梁下面通过。",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_dmqx_02",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "保持 crouched posture，pass beneath the overhead structure.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_dmqx_03",
+      "condition": "bilingual_code_switch",
+      "language": "en_zh",
+      "query": "Go under the low bridge，注意不要碰到横梁。",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_dmqx_04",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "弯腰并 move below the bridge。",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_wbz1_01",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "请连续 clear three low poles，不要减速。",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_wbz1_02",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "跨过 3 个 barriers and keep running。",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_wbz1_03",
+      "condition": "bilingual_code_switch",
+      "language": "en_zh",
+      "query": "Run the shorter rail sequence，保持节奏。",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_wbz1_04",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "越过三根 low bars one after another。",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_wbz2_01",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "请连续 clear five low poles，不要减速。",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_wbz2_02",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "跨过 5 个 barriers and keep running。",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_wbz2_03",
+      "condition": "bilingual_code_switch",
+      "language": "en_zh",
+      "query": "Run the longer rail sequence，保持节奏。",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "bi_wbz2_04",
+      "condition": "bilingual_code_switch",
+      "language": "zh_en",
+      "query": "越过五根 low bars one after another。",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_dmqx_01",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "moderate",
+      "query": "pass under the low brige keep head down",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_dmqx_02",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "mild",
+      "query": "duck beneeth the overhead structure",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_dmqx_03",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "mild",
+      "query": "go uh under bridge no contact",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_dmqx_04",
+      "condition": "synthetic_asr_noise",
+      "language": "zh",
+      "noise_level": "mild",
+      "query": "从桥下低资通过",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_wbz1_01",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "moderate",
+      "query": "cross tree low poles continuously",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_wbz1_02",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "mild",
+      "query": "run over 3 low hurdles uh in a row",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_wbz1_03",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "moderate",
+      "query": "clear three polls one after another",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_wbz1_04",
+      "condition": "synthetic_asr_noise",
+      "language": "zh",
+      "noise_level": "moderate",
+      "query": "连续跨过三个装",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_wbz2_01",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "moderate",
+      "query": "cross fiv low poles continuously",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_wbz2_02",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "mild",
+      "query": "run over 5 low hurdles uh in a row",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_wbz2_03",
+      "condition": "synthetic_asr_noise",
+      "language": "en",
+      "noise_level": "moderate",
+      "query": "clear five polls one after another",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "asr_wbz2_04",
+      "condition": "synthetic_asr_noise",
+      "language": "zh",
+      "noise_level": "moderate",
+      "query": "连续跨过五个装",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_dmqx_01",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "The clearance above is tight; stay compact and move through.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_dmqx_02",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Keep your head and torso low until you are beyond the overhead structure.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_dmqx_03",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Use a deep crouch to avoid touching what is above you.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_dmqx_04",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Advance through the confined passage without raising your upper body.",
+      "expected_action": "CrouchedTraverse",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_wbz1_01",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Choose the shorter of the two pole courses and keep a continuous stride.",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_wbz1_02",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Take the course with fewer low rails.",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_wbz1_03",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Use the compact obstacle sequence rather than the extended one.",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_wbz1_04",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Follow the brief sequence of alternating clearances.",
+      "expected_action": "ThreeStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_wbz2_01",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Choose the longer of the two pole courses and keep a continuous stride.",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_wbz2_02",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Take the course with more low rails.",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_wbz2_03",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Use the extended obstacle sequence rather than the compact one.",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "implicit_wbz2_04",
+      "condition": "implicit_description",
+      "language": "en",
+      "query": "Follow the full-length sequence of alternating clearances.",
+      "expected_action": "FiveStepPoleRun",
+      "should_abstain": false
+    },
+    {
+      "id": "ambiguous_01",
+      "condition": "ambiguous",
+      "language": "en",
+      "query": "Cross the poles.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_02",
+      "condition": "ambiguous",
+      "language": "en",
+      "query": "Clear either three or five poles depending on what you see.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_03",
+      "condition": "ambiguous",
+      "language": "en",
+      "query": "Take the short or long rail sequence.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_04",
+      "condition": "ambiguous",
+      "language": "en",
+      "query": "Use the bridge route or the pole route.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_05",
+      "condition": "ambiguous",
+      "language": "en",
+      "query": "Pass under the bridge and then clear three poles.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_06",
+      "condition": "ambiguous",
+      "language": "zh",
+      "query": "越过几个桩。",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_07",
+      "condition": "ambiguous",
+      "language": "zh",
+      "query": "跨三步桩或者三步桩/五步桩都可以。",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_08",
+      "condition": "ambiguous",
+      "language": "zh",
+      "query": "从桥下走还是跨障碍都行。",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_09",
+      "condition": "ambiguous",
+      "language": "zh",
+      "query": "执行刚才那个动作。",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_10",
+      "condition": "ambiguous",
+      "language": "en",
+      "query": "Do the obstacle task.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_11",
+      "condition": "ambiguous",
+      "language": "en",
+      "query": "Take the first course.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "ambiguous_12",
+      "condition": "ambiguous",
+      "language": "en",
+      "query": "Continue with the other skill.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_01",
+      "condition": "out_of_scope",
+      "language": "en",
+      "query": "Sit down slowly.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_02",
+      "condition": "out_of_scope",
+      "language": "en",
+      "query": "Wave your right hand.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_03",
+      "condition": "out_of_scope",
+      "language": "en",
+      "query": "Turn around and walk back.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_04",
+      "condition": "out_of_scope",
+      "language": "en",
+      "query": "Pick up the box.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_05",
+      "condition": "out_of_scope",
+      "language": "en",
+      "query": "Climb the stairs.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_06",
+      "condition": "out_of_scope",
+      "language": "en",
+      "query": "Jump in place twice.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_07",
+      "condition": "out_of_scope",
+      "language": "zh",
+      "query": "停止并保持站立。",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_08",
+      "condition": "out_of_scope",
+      "language": "zh",
+      "query": "向左转九十度。",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_09",
+      "condition": "out_of_scope",
+      "language": "zh",
+      "query": "踢一下前面的球。",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_10",
+      "condition": "out_of_scope",
+      "language": "zh",
+      "query": "打开门并走进去。",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_11",
+      "condition": "out_of_scope",
+      "language": "en",
+      "query": "Follow me across the room.",
+      "expected_action": null,
+      "should_abstain": true
+    },
+    {
+      "id": "oos_12",
+      "condition": "out_of_scope",
+      "language": "en",
+      "query": "Calibrate the camera before moving.",
+      "expected_action": null,
+      "should_abstain": true
+    }
+  ]
+}

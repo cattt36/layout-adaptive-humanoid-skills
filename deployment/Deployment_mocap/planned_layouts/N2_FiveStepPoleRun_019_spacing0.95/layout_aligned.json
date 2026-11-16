@@ -1,0 +1,87 @@
+{
+ "id": "N2",
+ "clip": "FiveStepPoleRun_019",
+ "task": "FiveStepPoleRun",
+ "task_name": "Five-step Pole Run",
+ "frame": "standard start: origin = robot start (pelvis projection, normal stance), +x = start heading (towards the obstacles); clip frame rotated by -start heading about the start",
+ "theta_deg": 0.0,
+ "start": {
+  "x": 0.0,
+  "y": 0.0,
+  "heading_deg": 0.0
+ },
+ "feet0": {
+  "L": [
+   -0.001,
+   0.118
+  ],
+  "R": [
+   0.0,
+   -0.118
+  ]
+ },
+ "stakes": [
+  {
+   "n": 1,
+   "foot": "L",
+   "x": 2.666,
+   "y": 1.519,
+   "top_z": 0.1,
+   "radius": 0.2
+  },
+  {
+   "n": 2,
+   "foot": "R",
+   "x": 3.512,
+   "y": 1.013,
+   "top_z": 0.1,
+   "radius": 0.2
+  },
+  {
+   "n": 3,
+   "foot": "L",
+   "x": 3.708,
+   "y": 2.031,
+   "top_z": 0.1,
+   "radius": 0.2
+  },
+  {
+   "n": 4,
+   "foot": "R",
+   "x": 4.638,
+   "y": 1.583,
+   "top_z": 0.1,
+   "radius": 0.2
+  },
+  {
+   "n": 5,
+   "foot": "L",
+   "x": 4.757,
+   "y": 2.526,
+   "top_z": 0.1,
+   "radius": 0.2
+  }
+ ],
+ "standard_start": {
+  "cut_frame": 16,
+  "cut_heading_vs_obstacle_deg": -29.8,
+  "steps": [
+   "right"
+  ],
+  "lead_frames": 91,
+  "slow_frames": 100,
+  "start_pelvis_xy": [
+   3.9096261074178464,
+   -0.71244493948407
+  ],
+  "start_heading_rad": 2.672144651412964,
+  "stance_half_width": 0.118506455,
+  "max_ik_err": 0.013557767636657404,
+  "frames_total": 451,
+  "source_frames": 327
+ },
+ "default_plan": {
+  "candidate": "FiveStepPoleRun_020",
+  "method": "tools/std_plan.py (standard-start planner, candidate own start)"
+ }
+}

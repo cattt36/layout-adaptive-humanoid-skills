@@ -1,0 +1,3 @@
+__pycache__/
+*.pyc
+deployment/Deployment_mocap/text_encoder/

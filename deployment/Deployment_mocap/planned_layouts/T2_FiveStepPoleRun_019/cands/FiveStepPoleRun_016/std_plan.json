@@ -1,0 +1,29 @@
+{
+ "layout": "T2_FiveStepPoleRun_019",
+ "clip": "FiveStepPoleRun_019",
+ "candidate": "FiveStepPoleRun_016",
+ "lead": 91,
+ "cand_lead": 91,
+ "windows": [
+  [
+   219.6,
+   231.7
+  ],
+  [
+   240.3,
+   260.3
+  ],
+  [
+   272.4,
+   283.7
+  ],
+  [
+   288.8,
+   306.3
+  ],
+  [
+   320.8,
+   335.8
+  ]
+ ]
+}

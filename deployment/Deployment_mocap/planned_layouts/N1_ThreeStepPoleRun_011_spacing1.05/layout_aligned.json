@@ -1,0 +1,71 @@
+{
+ "id": "N1",
+ "clip": "ThreeStepPoleRun_011",
+ "task": "ThreeStepPoleRun",
+ "task_name": "Three-step Pole Run",
+ "frame": "standard start: origin = robot start (pelvis projection, normal stance), +x = start heading (towards the obstacles); clip frame rotated by -start heading about the start",
+ "theta_deg": 0.0,
+ "start": {
+  "x": 0.0,
+  "y": 0.0,
+  "heading_deg": 0.0
+ },
+ "feet0": {
+  "L": [
+   -0.001,
+   0.118
+  ],
+  "R": [
+   0.0,
+   -0.118
+  ]
+ },
+ "stakes": [
+  {
+   "n": 1,
+   "foot": "L",
+   "x": 3.014,
+   "y": 0.211,
+   "top_z": 0.1,
+   "radius": 0.2
+  },
+  {
+   "n": 2,
+   "foot": "R",
+   "x": 4.486,
+   "y": 0.198,
+   "top_z": 0.1,
+   "radius": 0.2
+  },
+  {
+   "n": 3,
+   "foot": "L",
+   "x": 5.99,
+   "y": 0.411,
+   "top_z": 0.1,
+   "radius": 0.2
+  }
+ ],
+ "standard_start": {
+  "cut_frame": 3,
+  "cut_heading_vs_obstacle_deg": -4.0,
+  "steps": [
+   "right"
+  ],
+  "lead_frames": 91,
+  "slow_frames": 100,
+  "start_pelvis_xy": [
+   -6.081381227391488,
+   -1.0790789301667063
+  ],
+  "start_heading_rad": -0.023330872878432274,
+  "stance_half_width": 0.118506455,
+  "max_ik_err": 0.016449916243166326,
+  "frames_total": 394,
+  "source_frames": 257
+ },
+ "default_plan": {
+  "candidate": "plan",
+  "method": "planned z re-timed with the layout start map (make_start.remap_z)"
+ }
+}

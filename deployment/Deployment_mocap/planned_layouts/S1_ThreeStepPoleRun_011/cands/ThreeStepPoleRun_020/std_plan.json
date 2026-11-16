@@ -1,0 +1,21 @@
+{
+ "layout": "S1_ThreeStepPoleRun_011",
+ "clip": "ThreeStepPoleRun_011",
+ "candidate": "ThreeStepPoleRun_020",
+ "lead": 91,
+ "cand_lead": 91,
+ "windows": [
+  [
+   236.9,
+   246.1
+  ],
+  [
+   262.0,
+   270.7
+  ],
+  [
+   285.0,
+   296.2
+  ]
+ ]
+}

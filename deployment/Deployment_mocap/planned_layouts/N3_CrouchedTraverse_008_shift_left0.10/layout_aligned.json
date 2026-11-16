@@ -1,0 +1,86 @@
+{
+ "id": "N3",
+ "clip": "CrouchedTraverse_008",
+ "task": "CrouchedTraverse",
+ "task_name": "Crouched traverse under a bridge",
+ "frame": "standard start: origin = robot start (pelvis projection, normal stance), +x = start heading (towards the obstacles); clip frame rotated by -start heading about the start",
+ "theta_deg": 0.0,
+ "start": {
+  "x": 0.0,
+  "y": 0.0,
+  "heading_deg": 0.0
+ },
+ "feet0": {
+  "L": [
+   -0.0,
+   0.118
+  ],
+  "R": [
+   -0.0,
+   -0.118
+  ]
+ },
+ "posts": [
+  {
+   "n": 1,
+   "x": 1.415,
+   "y": 1.272,
+   "height_clip": 1.158,
+   "height_deploy": 1.178
+  },
+  {
+   "n": 2,
+   "x": 2.636,
+   "y": 1.238,
+   "height_clip": 1.126,
+   "height_deploy": 1.146
+  },
+  {
+   "n": 3,
+   "x": 4.159,
+   "y": 1.194,
+   "height_clip": 1.086,
+   "height_deploy": 1.106
+  },
+  {
+   "n": 4,
+   "x": 5.079,
+   "y": 1.168,
+   "height_clip": 1.062,
+   "height_deploy": 1.082
+  }
+ ],
+ "plank": {
+  "x": 3.161,
+  "y": 1.223,
+  "z_center": 1.173,
+  "yaw_deg": 178.4,
+  "pitch_deg": -1.5,
+  "length": 3.947,
+  "width": 0.122,
+  "thick": 0.122,
+  "raise_deploy": 0.02
+ },
+ "standard_start": {
+  "cut_frame": 77,
+  "cut_heading_vs_obstacle_deg": 1.6,
+  "steps": [
+   "left"
+  ],
+  "lead_frames": 91,
+  "slow_frames": 100,
+  "start_pelvis_xy": [
+   2.936881369851819,
+   1.4811696108331802
+  ],
+  "start_heading_rad": -3.0740387439727783,
+  "stance_half_width": 0.118506455,
+  "max_ik_err": 0.01385766476110337,
+  "frames_total": 503,
+  "source_frames": 440
+ },
+ "default_plan": {
+  "candidate": "plan",
+  "method": "planned z re-timed with the layout start map (make_start.remap_z)"
+ }
+}
